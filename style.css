@@ -210,23 +210,23 @@ span{
 @keyframes words{
     0%,
     20%{
-        content: "Full Stack Web Developer";
+        content: "a Full Stack Web Developer";
     }
     21%,
     40%{
-        content: "PHP & Laravel Developer";
+        content: "a PHP & Laravel Developer";
     }
     41%,
     60%{
-        content: "Courses Instrctor";
+        content: "a Courses Instrctor";
     }
     61%,
     80%{
-        content: "Debater";
+        content: "an Debater";
     }
     81%,
     100%{
-        content:"Front-end Developer";
+        content:"a Front-end Developer";
     }
 }
 @keyframes typing{
