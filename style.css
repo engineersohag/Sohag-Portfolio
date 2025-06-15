@@ -457,6 +457,80 @@ span{
     font-size: 2rem;
 }
 
+
+#protfolio{
+	padding: 50px 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.work-list{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 40px;
+	margin-top: 50px;
+}
+.work{
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.work img{
+	width: 100%;
+	border-radius: 10%;
+	display: block;
+	transition: transform 0.5s;
+}
+
+.layer{
+	width: 100%;
+	height: 0;
+	background: linear-gradient(rgba(0, 0, 0, .6), var(--main-color));
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	font-size: 14px;
+	transition: height 0.5s;
+}
+.layer h3{
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.layer a{
+	margin-top: 20px;
+	color: var(--main-color);
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 60px;
+	background: #fff;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center;
+}
+.work:hover img{
+	transform: scale(1.1);
+
+}
+.work:hover .layer{
+	height: 100%;
+}
+
+
+
+/*-------- protfolio end -------*/
+
+
 .contact{
     background-color: var(--bg-color);
 }
