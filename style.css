@@ -473,6 +473,7 @@ span{
 	margin-top: 50px;
 }
 .work{
+    height: 270px;
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
